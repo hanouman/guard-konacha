@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency 'guard',   '>= 2.0'
-  s.add_dependency('guard-compat', '1.2.0')
+  s.add_dependency('guard-compat', '>= 1.2.0')
   s.add_dependency 'konacha', '>= 3.0'
 
   s.add_development_dependency 'rspec', '~> 2.13'
